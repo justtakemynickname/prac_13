@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
+  <diagram name="Page-1" id="P2PU8CVJFnVKt1xEjRsV">
+    <mxGraphModel dx="2149" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Гость" vertex="1">
+          <mxGeometry height="100" width="70" x="-670" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Зарегистрированный пользователь" vertex="1">
+          <mxGeometry height="100" width="70" x="-670" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Администратор" vertex="1">
+          <mxGeometry height="100" width="70" x="-670" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=umlFrame;html=1;" value="Система управления бронированием мероприятий" vertex="1">
+          <mxGeometry height="550" width="250" x="-470" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="5" style="shape=useCase;html=1;" value="Просмотр мероприятий" vertex="1">
+          <mxGeometry height="50" width="170" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="5" style="shape=useCase;html=1;" value="Бронирование мероприятия" vertex="1">
+          <mxGeometry height="50" width="170" x="50" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="5" style="shape=useCase;html=1;" value="Отмена бронирования" vertex="1">
+          <mxGeometry height="50" width="170" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="5" style="shape=useCase;html=1;" value="Управление мероприятиями" vertex="1">
+          <mxGeometry height="50" width="170" x="50" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="5" style="shape=useCase;html=1;" value="Просмотр всех бронирований" vertex="1">
+          <mxGeometry height="50" width="170" x="50" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="3" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-635" y="320" as="sourcePoint" />
+            <mxPoint x="-635" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="4" style="endArrow=block;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-635" y="470" as="sourcePoint" />
+            <mxPoint x="-634" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" target="6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="220" as="sourcePoint" />
+            <mxPoint x="-420" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" target="7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="370" as="sourcePoint" />
+            <mxPoint x="-420" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" target="8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="370" as="sourcePoint" />
+            <mxPoint x="-420" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" target="9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="520" as="sourcePoint" />
+            <mxPoint x="-420" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" target="10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="520" as="sourcePoint" />
+            <mxPoint x="-420" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
